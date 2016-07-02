@@ -2,6 +2,8 @@
 
 const importer = require('anytv-node-importer');
 
+var path = require('path');
+
 
 
 module.exports = (router) => {
@@ -11,10 +13,19 @@ module.exports = (router) => {
 
     router.get('/user/:id', __.user.get_user);
 
-    router.all('*', (req, res) => {
-        res.status(404)
-            .send({message: 'Nothing to do here.'});
+    /*router.all('*', (req, res) => {
+        res.sendfile('index.html');
     });
 
-    return router;
+    
+	*/
+	router.get('/', function(req, res) {
+		res.sendFile(path.join(__dirname, '/../index.html')); 
+	});
+
+	router.get('*', function(req, res) {
+		res.sendFile(path.join(__dirname, '/../index.html')); 
+	});
+return router;
+
 };
