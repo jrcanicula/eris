@@ -1,13 +1,13 @@
+'use strict';
+
 angular.module('erisApp', [
   'ngCookies',
   'ngResource',
   'ngSanitize',
-  'ui.router',
-  'ui.bootstrap',
   'angularSpinner',
   'ngAnimate',
+  'ngFileSaver',
+  'ui.router',
+  'ui.bootstrap',
   'toastr',
-  'angularSpinner',
-  'ngFileUpload',
-  'ngFileSaver'
 ]);

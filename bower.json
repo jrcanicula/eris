@@ -13,6 +13,8 @@
     "angular-sanitize": "^1.5.7",
     "angular-material": "^1.0.9",
     "angular-toastr": "^1.7.0",
-    "angular-cookies": "^1.5.7"
+    "angular-cookies": "^1.5.7",
+    "angular-spinner": "^0.8.1",
+    "angular-bootstrap": "^1.3.3"
   }
 }
