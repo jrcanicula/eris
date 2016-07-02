@@ -745,7 +745,7 @@ pre code {
 }
 @media (min-width: 1200px) {
   .container {
-    width: auto;
+    width: 1358px;
     /*jaime*/
   }
 }
