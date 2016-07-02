@@ -6,7 +6,7 @@ const path = require('path');
 const config = {
     APP_NAME: 'Eris Cookbook',
 
-    PORT: 5000,
+    PORT: 6969,
 
     CORS:  {
         allowed_headers: 'Access-Token, X-Requested-With, Content-Type, Accept',

@@ -9,22 +9,12 @@ module.exports = (router) => {
 
     router.del = router.delete;
 
-
-    /* */
-    
     router.get('/user/:id', __.user.get_user);
 
-
-    router.get('/test',__.test.test);
-
-
-   
- 	router.all('*', (req, res) => {
+    router.all('*', (req, res) => {
         res.status(404)
             .send({message: 'Nothing to do here.'});
     });
-
-
 
     return router;
 };

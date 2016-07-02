@@ -13,7 +13,9 @@ module.exports = (grunt) => {
                 'helpers/**/*.js',
                 'lib/**/*.js',
                 'models/**/*.js',
-                'test/**/*.js'
+                'test/**/*.js',
+                'app/**/*.js',
+                'app/app.js'
             ],
             options: {
                 jshintrc: '.jshintrc'
