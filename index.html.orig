@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<<<<<<< HEAD
+<head>
+
+
+    <meta charset="UTF-8">
+    <title>Eris &174;</title>
+
+    <!-- CSS -->
+    
+
+    <script src="../bower_components/angular/angular.js"></script>
+
+    <!-- JS -->
+    
+    <!-- ANGULAR CUSTOM -->    
+
+</head>
+
+=======
+	<head>
+	    <meta charset="UTF-8">
+	    <title>Eris &174;</title>
+
+	    <!-- CSS -->
+
+	    <!-- JS -->
+>>>>>>> git/master
+
+	    <!-- ANGULAR CUSTOM -->
+	    <script src="bower_components/angular/angular.js"></script>
+	</head>
+
+<<<<<<< HEAD
+<div class="tell" style="color:red">
+red;
+</div>
+</body>
+=======
+	<body>
+		asd
+	</body>
+>>>>>>> git/master
+</html>
