@@ -19,6 +19,7 @@ const config = {
     VIEWS_DIR: path.normalize(__dirname + '/../views'),
     LOGS_DIR: path.normalize(__dirname + '/../logs'),
 
+    APP_DIR: __dirname + '/../app',
 
     DB: {
         host: 'localhost',
