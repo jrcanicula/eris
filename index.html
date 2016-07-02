@@ -8,12 +8,20 @@
 
 	    <!-- CSS -->
 	    <link rel="stylesheet" type="text/css" href="bootstrap/dist/css/bootstrap.min.css">
-
+	    <link rel="stylesheet" href="app.css">
 
 	</head>
 
 	<body ng-app="erisApp">
-		asd
+		<div id="wrapper">
+        	<div class="container remove-pad">
+            	<main id="main-view" class="main-viewport" ui-view="">
+
+            	        	
+             	</main>
+        </div>
+       
+    	</div>
 	</body>
 
 	    <script src="jquery/dist/jquery.js"></script>
@@ -31,6 +39,19 @@
 		<script src="angular-file-saver/dist/angular-file-saver.js"></script>
 		<script src="angular-ui-router/release/angular-ui-router.js"></script>
 		<script src="angular-bootstrap/ui-bootstrap.js"></script>		
+	    
 	    <script src="app.js"></script>
+
+
+	    <script src="services/menu.service.js"></script>
+	    <script src="util/data-utility.js"></script>
+	    <script src="navbar/navbar.controller.js"></script>
+
+
+	    <script src="master-page/master-page.js"></script>
+	    <script src="master-page/master.controller.js"></script>
+
+	    <script src="about/about.js"></script>
+	    <script src="about/about.controller.js"></script>
 
 </html>

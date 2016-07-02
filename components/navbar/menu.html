@@ -1,0 +1,11 @@
+﻿<ul class="nav navbar-nav">
+    <li ng-class="{  
+            'dropdown':isRoot,
+            'dropdown-submenu':!isRoot && menu.subMenu.length > 0
+        }" ng-repeat="menu in menuItems | orderBy:'order'">
+        <a ng-click="navigate(menu.state)" class="btn-block dropdown-toggle" data-toggle="dropdown">{{menu.name}} </a>
+        <ul class="dropdown-menu" ng-if="menu.subMenu.length > 0">
+            <li data-toggle="collapse" data-target=".nav-collapse" ng-include="'navbar/menu.html'" ng-init="menuItems = menu.subMenu; isRoot = false"></li>
+        </ul>
+    </li>
+</ul>
