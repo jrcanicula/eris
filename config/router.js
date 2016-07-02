@@ -19,15 +19,13 @@ module.exports = (router) => {
         res.sendfile('index.html');
     });
 
-    
+        
 	*/
 	router.get('/', function(req, res) {
 		res.sendFile(path.join(__dirname, '/../index.html')); 
 	});
 
-	router.get('*', function(req, res) {
-		res.sendFile(path.join(__dirname, '/../index.html')); 
-	});
+	
 return router;
 
 };

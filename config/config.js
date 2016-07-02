@@ -18,8 +18,10 @@ const config = {
     ASSETS_DIR: path.normalize(__dirname + '/../assets'),
     VIEWS_DIR: path.normalize(__dirname + '/../views'),
     LOGS_DIR: path.normalize(__dirname + '/../logs'),
-
     APP_DIR: __dirname + '/../app',
+    BOWERCOMPONENTS_DIR: __dirname + '/../bower_components',
+    COMPONENTS_DIR: __dirname + '/../components',
+    
 
     DB: {
         host: 'localhost',
