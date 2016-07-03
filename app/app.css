@@ -745,8 +745,11 @@ pre code {
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1358px;
+    /*width: 1358px;*/
     /*jaime*/
+    width: 100%;
+    min-width: 100%;
+    /*pia*/
   }
 }
 .container-fluid {
@@ -9318,7 +9321,7 @@ select {
   box-shadow: none;
 }
 /*
-.form-control {    
+.form-control {
     color: #003300;
     outline: none;
     margin: 0;
@@ -9682,7 +9685,7 @@ input[readonly] {
 /*
 input[type=text] {
     .form-control();
-    
+
     height: 25px;
 }
 
@@ -9694,7 +9697,7 @@ select {
 
 textarea {
     .form-control();
-    
+
     height: 100%;
 }
 
@@ -9782,7 +9785,7 @@ select {
         border: 1px solid #999999;
         margin: 10px;
     }
-    .panel-heading , .modal-header{ 
+    .panel-heading , .modal-header{
         background-color: #DDF2FB;
         color: #1382AC;
         text-align: left;
@@ -10072,7 +10075,7 @@ select {
     }
     /*
 
-    
+
         .row {
             margin: 10px;
         }
@@ -10091,7 +10094,7 @@ select {
             margin: 20px;
         }
 
-        
+
     }*/
 }
 #-cust-type-group {
