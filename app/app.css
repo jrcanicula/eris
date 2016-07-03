@@ -10379,7 +10379,7 @@ select {
   height: 50px;
   position: absolute;
   bottom: 0;
-  background-color: #008F68;
+  background-color: #1f1f1f;
 }
 #wrapper {
   min-height: 100%;
@@ -10419,7 +10419,7 @@ select {
     height: 50px;
     position: absolute;
     bottom: 0;
-    background-color: white;
+    background-color: #1f1f1f;
   }
 }
 /* -----  Smart Phone Display  -------*/
@@ -10436,7 +10436,7 @@ select {
     height: 50px;
     position: absolute;
     bottom: 0;
-    background-color: white;
+    background-color: #1f1f1f;
   }
 }
 #-header {
@@ -10564,4 +10564,16 @@ select {
   font-weight: 700;
   color: #000;
   margin-left: 2px;
+}
+
+
+.banner{
+  min-height: 200px;
+  min-width:  100%;
+  max-height: auto;
+}
+
+.banner > img{
+  min-width:  100%;
+  max-height: 200px;
 }

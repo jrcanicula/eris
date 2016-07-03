@@ -9,6 +9,8 @@ angular.module('erisApp', [
   'ngFileSaver',
   'ui.router',
   'ui.bootstrap',
+  'ngMaterial', 
+  'ngMessages',
   //'toastr',
 ]).config(function ($urlRouterProvider, $locationProvider, $httpProvider) {
         $urlRouterProvider.otherwise('/');
@@ -96,4 +98,13 @@ angular.module('erisApp', [
         };
     }).config(['usSpinnerConfigProvider', function (usSpinnerConfigProvider) {
         usSpinnerConfigProvider.setTheme('bigBlue', { color: '#00aaea', radius: 20 });
-    }]);    
+    }]).config(function($mdThemingProvider) {
+
+    // Configure a dark theme with primary foreground yellow
+
+    $mdThemingProvider.theme('docs-dark', 'default')
+      .primaryPalette('yellow')
+      .dark();
+
+  });
+;    
