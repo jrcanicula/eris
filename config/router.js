@@ -5,7 +5,6 @@ const importer = require('anytv-node-importer');
 var path = require('path');
 
 
-
 module.exports = (router) => {
     const __ = importer.dirloadSync(__dirname + '/../controllers');
 
@@ -21,10 +20,11 @@ module.exports = (router) => {
 
         
 	*/
-	router.get('/', function(req, res) {
+	
+    /*router.get('/', function(req, res) {
 		res.sendFile(path.join(__dirname, '/../index.html')); 
 	});
-
+    */
 	
 return router;
 

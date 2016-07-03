@@ -1,7 +1,7 @@
 ﻿'use strict';
 
 angular.module('erisApp').controller('MasterPageController',
-    function ($scope, $state, DataUtility) {
+    function ($scope, $state, DataUtility,$rootScope) {
 
         
             $scope.base = {
@@ -9,5 +9,6 @@ angular.module('erisApp').controller('MasterPageController',
                 //AppConfig: appConfig,
                 //UserInfo: UserInfo
             };
-        
-    });
+
+        	$rootScope.banner = "images/custom-meals-category-banner.png";
+    });	
